@@ -5,6 +5,7 @@
 // @include     http://redump.org/disc/*
 // @version     1
 // @grant       none
+// @require       http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js
 // ==/UserScript==
 
 /* References:
