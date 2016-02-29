@@ -50,7 +50,12 @@ function addTotalTrack(jNode) {
 }
 
 function removeDataSlashPrefix(jNode) {
-  jNode.find ("tr:contains('Data/Mode 2') td:eq(1)").text("Mode 2");
+  var datamodeCells = jNode.find("tr:contains('Data/Mode 2')");
+  console.log("Number of data tracks:" + datamodeCells.length.toString());
+  
+  datamodeCells.each(function() {
+    $(this).find("td:eq(1)").text("Mode 2");
+  });
 }
 
 function leverageTotolTrackRow(jNode) {
