@@ -9,11 +9,12 @@ This tool inline modify the track table of Sony Playstation games page on redump
 Save the time of manually remove "Data/",add total track count and move the Total row to the top row.
 
 ### Prerequisites
-- Firefox (Tested with Firefox 44.0.2 on Mac OS X 10.10.5)
+- Firefox with Greasemonkey(Tested with Firefox 44.0.2 on Mac OS X 10.10.5)
+- Chrome with Tampermonkey(Tested with Chrome 48.0.2564.116 64bit on Mac OS X 10.10.5)
 
 ### Install
-- Install Firefox.
-- Install Greasemonkey extention from Tools->Add-ons.
+- Install Firefox and install Greasemonkey extension from Tools->Add-ons.
+- Install Chrome and install Tampermonkey extension from URL "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo".
 - Click the link below and choose install:  
 https://github.com/SONIC3D/psio-tools/raw/master/CU3Gen/ps-io_cu3gen_redump.user.js
 
